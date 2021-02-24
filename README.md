@@ -28,15 +28,15 @@
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/Shaher-11/)
-- Twitter: [@twitterhandle](https://twitter.com/ShaherShamroukh/)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/Shaher-Shamroukh/)
-
-👤 **Author2**
-
 - GitHub: [@githubhandle](https://github.com/garciajordy/)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/Shaher-11/)
+- Twitter: [@twitterhandle](https://twitter.com/ShaherShamroukh/)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/Shaher-Shamroukh/)
 
 ## 🤝 Contributing
 

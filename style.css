@@ -65,6 +65,10 @@ a {
   color: #555;
 }
 
+footer {
+  margin-top: 20px;
+}
+
 .footer-links a {
   padding: 0.5rem;
   font-size: 0.7rem;
@@ -425,6 +429,181 @@ a {
   font-size: 0.8rem;
 }
 
+.time a {
+  color: rgb(175, 175, 175);
+  font-size: 0.8rem;
+}
+
+.time a:hover {
+  color: rgb(80, 80, 80);
+}
+/*
+    ==============================================
+                ****** BIG CARD SECTION ******
+    ==============================================
+*/
+.big-card-container {
+  padding: 0.8rem;
+}
+.big-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.big-card-top-text {
+  padding-bottom: 0.8rem;
+}
+
+.big-card-top-text a {
+  color: #f42;
+}
+.big-card-top-text a:hover {
+  color: rgb(0, 0, 0);
+}
+.middle-photo {
+  background-size: 100% 100%;
+  width: 100%;
+  padding: 100% 1rem 1rem 1rem;
+  color: white;
+}
+
+.middle-photo p:first-child {
+  font-size: 1rem;
+}
+
+.middle-photo h3 {
+  font-weight: bolder;
+  margin: 0.2rem 0;
+  padding-bottom: 1px;
+  font-size: 1.5rem;
+}
+
+.middle-photo h3:hover {
+  text-decoration: #555 underline 1px;
+}
+
+.big-card-date,
+.big-card-date a {
+  font-size: 0.8rem;
+  color: rgb(138, 138, 138);
+}
+
+.big-card-date a:hover {
+  color: rgb(240, 240, 240);
+}
+
+.middle-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 100px;
+  background-color: rgba(255, 67, 34, 0.08);
+}
+
+.middle-container img {
+  width: 100px;
+  height: 100px;
+}
+
+.middle-text {
+  padding: 1rem;
+  color: #f42;
+}
+.middle-text a {
+  color: #f42;
+  font-weight: 900;
+}
+.middle-text a:hover {
+  border-bottom: rgba(255, 67, 34, 0.137) solid 1px;
+}
+.big-card-bottom {
+  padding: 0 1.3rem 1.3rem 1.3rem;
+}
+.big-card-bottom a {
+  color: rgb(61, 61, 61);
+  font-size: 0.8rem;
+}
+.big-card-bottom a:hover {
+  color: black;
+}
+.big-card-bottom ul {
+  list-style: unset;
+  color: #f42;
+}
+.big-card-bottom li {
+  padding: 0.5rem;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+.mp1 {
+  background-image:
+  linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
+  url('https://source.unsplash.com/random/410x305');
+}
+
+.mp2 {
+  background-image:
+  linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
+  url('https://source.unsplash.com/random/420x305');
+}
+
+.mp3{
+  background-image:
+  linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
+  url('https://source.unsplash.com/random/430x305');
+}
+
+.mp4 {
+  background-image:
+  linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
+  url('https://source.unsplash.com/random/440x305');
+}
+
+.mp5 {
+  background-image:
+  linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
+  url('https://source.unsplash.com/random/450x305');
+}
+
+.mp6 {
+  background-image:
+  linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
+  url('https://source.unsplash.com/random/460x305');
+}
+
+.mp7 {
+  background-image:
+  linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
+  url('https://source.unsplash.com/random/470x305');
+}
+
+.mp8 {
+  background-image:
+  linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
+  url('https://source.unsplash.com/random/480x305');
+}
+
+.mp9 {
+  background-image:
+  linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
+  url('https://source.unsplash.com/random/490x305');
+}
+/*
+    ==============================================
+                ****** THE DEALS SECTION ******
+    ==============================================
+*/
+.time1 {
+  text-decoration: line-through;
+}
+
+.time1 abbr {
+  text-decoration: none !important;
+  font-size: 1rem;
+}
+.time2 {
+  color: #555;
+}
+
 /*
     ==============================================
                 ****** TOP FOOTER ******
@@ -666,6 +845,26 @@ a {
   .latest2 {
     margin-right: 16rem;
   }
+  .big-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  .middle-photo {
+    width: 100%;
+    padding: 50% 1rem 1rem 1rem;
+  }
+
+  .big-card-bottom a {
+    color: rgb(61, 61, 61);
+    font-size: 0.5rem;
+  }
+  .big-card-bottom li {
+    padding: 0.2rem;
+  }
+  .deals img {
+    height: 200px !important;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -702,7 +901,7 @@ a {
   .center {
     margin: 0 auto;
     height: 100%;
-    width: 70%;
+    width: 80%;
   }
 
   .top-right {
@@ -771,7 +970,7 @@ a {
   }
 
   .latest1 img {
-    height: 150px;
+    height: 100px;
   }
 
   .latest2 {
@@ -781,5 +980,23 @@ a {
   .img-text {
     font-size: 0.9rem;
     padding-bottom: 0.5em;
+  }
+
+  .big-card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .middle-photo {
+    width: 100%;
+    padding: 50% 1rem 1rem 1rem;
+  }
+
+  .big-card-bottom a {
+    color: rgb(61, 61, 61);
+    font-size: 0.8rem;
+  }
+
+  .big-card-bottom li {
+    padding: 0.2rem;
   }
 }
