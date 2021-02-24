@@ -1,0 +1,785 @@
+/*
+    ==============================================
+                ****** RESET ******
+    ==============================================
+*/
+
+body {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*
+    ==============================================
+                ****** THE NAVBAR ******
+    ==============================================
+*/
+
+.my-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.yellow-a a {
+  color: black;
+}
+
+.top-nav-widthscreen {
+  background-color: black;
+  display: none;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.fund-container a {
+  color: #f42;
+}
+
+.top-nav-widthscreen a {
+  padding: 0 1rem;
+  color: rgb(184, 184, 184);
+}
+
+.fund-middle a {
+  color: #555;
+}
+
+.footer-links a {
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  color: rgb(241, 224, 207);
+}
+
+.fund-middle a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.top-nav-widthscreen a:hover {
+  padding: 0 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.first-left {
+  display: flex;
+  width: 50%;
+}
+
+.first-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.top-nav {
+  background-color: #2d76ee;
+  color: white;
+  display: none;
+  grid-template-rows: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "navbar2 navbar2" "navbar3 navbar4";
+}
+
+.left-middle {
+  display: none;
+}
+
+.navbar2-a {
+  border-bottom: 0.5px solid white;
+  grid-area: navbar2;
+  font-size: 0.8rem;
+  padding: 1rem;
+  line-height: 1.4rem;
+}
+
+.navbar3 {
+  grid-area: navbar3;
+  display: flex;
+  align-items: center;
+  border-right: 0.5px solid white;
+}
+
+.navbar4 {
+  grid-area: navbar4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar1 {
+  display: none;
+}
+
+.navbar2-b {
+  display: none;
+}
+
+.per-link {
+  padding-left: 1rem;
+}
+
+.navbar3,
+.navbar4 {
+  padding: 0.5rem;
+}
+
+.navbar3:hover,
+.navbar4:hover {
+  background-color: white;
+  color: #2d76ee;
+}
+
+.navbar3:hover a,
+.navbar4:hover a {
+  color: #2d76ee;
+}
+
+.bottom-nav-b {
+  display: none;
+}
+
+.bottom-nav {
+  border-top: rgb(207, 207, 207) solid 0.4rem;
+}
+
+.middle-bottom-nav {
+  display: flex;
+}
+
+/*
+    ==============================================
+                ****** THE HEAD SECTION ******
+    ==============================================
+*/
+
+.left {
+  background-color: black;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: flex-start;
+}
+
+.left:hover {
+  cursor: pointer;
+  background-image: url("https://source.unsplash.com/random/120x80");
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: white;
+}
+
+.left img {
+  width: 4rem;
+  height: auto;
+}
+
+.right img {
+  width: 1rem;
+  height: auto;
+}
+
+.search,
+.burger {
+  padding: 0.5rem;
+  border: solid 0.2px lightgray;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow-a {
+  background-color: rgb(255, 208, 0);
+  width: 100vw;
+  padding: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: auto;
+  white-space: nowrap;
+}
+
+/*
+    ==============================================
+                ****** THE LATEST NEWS SECTION ******
+    ==============================================
+*/
+
+.latest-container h2 {
+  color: #f42;
+  padding-bottom: 1rem;
+}
+
+/*
+    ==============================================
+                ****** THE FUNDING SECTION ******
+    ==============================================
+*/
+
+.top-text {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.top-text a:hover {
+  color: black;
+}
+
+.top-text-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  gap: 2rem;
+}
+
+.fund1 {
+  width: auto;
+  box-sizing: border-box;
+}
+
+.top-1 {
+  background-color: #f42;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  color: white;
+}
+
+.top-2 {
+  background: rgba(255, 68, 34, 0.08);
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+}
+
+.top2-p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.top-2 h4 {
+  font-size: 18px;
+}
+
+.fund-top img {
+  position: absolute;
+  padding: 0.8rem;
+}
+
+.fund-middle {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.fund-middle i {
+  padding: 0.3rem;
+}
+
+.fund-middle,
+.fund-bottom {
+  background-color: rgba(255, 68, 34, 0.02);
+}
+
+.fund-bottom {
+  border-top: 1px solid rgba(255, 67, 34, 0.397);
+  padding: 1rem;
+}
+
+.fund-bottom p {
+  color: rgb(48, 48, 48);
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.fund-bottom abbr {
+  color: rgb(122, 122, 122);
+}
+
+/*
+    ==============================================
+                ****** HEAD SECTION ******
+    ==============================================
+*/
+
+.head {
+  margin-top: 6rem;
+}
+
+.left-head {
+  background-size: 100% 100%;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.top-right {
+  background-image:
+    linear-gradient(to bottom, rgba(165, 163, 163, 0.87), rgba(7, 7, 7, 0.73)),
+    url('assets/Opal-796x417.jpg');
+}
+
+.top-right-head {
+  background-image:
+    linear-gradient(to bottom, rgba(165, 163, 163, 0.87), rgba(7, 7, 7, 0.73)),
+    url('assets/top-right.webp');
+}
+
+.bottom-right-head {
+  background-image:
+    linear-gradient(to bottom, rgba(165, 163, 163, 0.87), rgba(7, 7, 7, 0.73)),
+    url('assets/bottom-right.png');
+}
+
+.tnw {
+  display: none;
+}
+
+.tnw-bottom {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.author {
+  font-size: 0.7rem;
+}
+
+.date {
+  display: none;
+}
+
+/*
+    ==============================================
+                ****** LATEST NEWS SECTION ******
+    ==============================================
+*/
+.latest-container {
+  padding: 0.8rem;
+}
+
+.latest {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.img-text {
+  color: black;
+  font-weight: 900;
+  line-height: 1rem;
+}
+
+.img-text p {
+  padding-bottom: 0.5rem;
+}
+
+.img-text:hover {
+  color: red;
+}
+
+.latest1 {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.latest1 img {
+  width: 80px;
+  height: 80px;
+}
+
+.time {
+  color: rgb(175, 175, 175);
+  font-size: 0.8rem;
+}
+
+/*
+    ==============================================
+                ****** TOP FOOTER ******
+    ==============================================
+*/
+
+.top-footer {
+  background-color: rgb(34, 32, 32);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.social-links li {
+  padding: 0.6rem;
+  font-size: 1.9rem;
+}
+
+.social-links li:hover {
+  background-color: black;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+/*
+    ==============================================
+                ****** BASE FOOTER ******
+    ==============================================
+*/
+
+.bottom-footer {
+  background-color: black;
+  color: white;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  display: block;
+  text-align: center;
+}
+
+.footer-img1 {
+  width: 2rem;
+}
+
+.footer-img2 {
+  width: 4rem;
+}
+
+.last {
+  display: inline;
+  font-size: 0.7rem;
+  line-height: 1.3rem;
+}
+
+.fa-universal-access {
+  background-color: #2d76ee;
+  position: fixed;
+  z-index: 999;
+  right: 0;
+  bottom: 0;
+}
+
+/*
+    ==============================================
+                ****** MEDIA QUERIES ******
+    ==============================================
+*/
+
+@media only screen and (min-width: 768px) {
+  .middle-bottom-nav {
+    display: grid;
+    grid-template-columns: 6rem 1fr 1fr;
+  }
+
+  .left {
+    grid-column: 1/2;
+    display: block;
+    background-color: black;
+  }
+
+  .left-middle {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    grid-column: 2/3;
+  }
+
+  .right {
+    grid-column: 3/4;
+  }
+
+  .top-right {
+    background-image:
+      linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(7, 7, 7, 0.73)),
+      url('assets/Opal-796x417.jpg');
+    grid-row: 1/3;
+    grid-column: 1/2;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .my-nav {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+
+  .top-nav {
+    display: none;
+  }
+
+  .yellow-a {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    margin: 0;
+  }
+
+  .yellow-a img {
+    width: 1rem;
+  }
+
+  .head {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 0.5rem;
+  }
+
+  .date {
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    right: 0;
+  }
+
+  .top-right-head {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+
+  .bottom-right-head {
+    grid-row: 2/-1;
+    grid-column: 2/3;
+  }
+
+  .tnw-bottom {
+    font-size: 2rem;
+  }
+
+  .card-container {
+    flex-direction: row;
+  }
+
+  .fund4 {
+    display: none;
+  }
+
+  .top-text-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  .separate::after {
+    content: "|";
+    color: red;
+    padding-left: 0.5rem;
+  }
+
+  #burg {
+    display: none;
+  }
+
+  .bottom-nav {
+    border-top: none;
+  }
+
+  .top-nav-widthscreen {
+    display: flex;
+  }
+
+  .middle-bottom-nav a {
+    color: rgb(135, 135, 136);
+    padding-left: 1rem;
+    white-space: nowrap;
+  }
+
+  .middle-bottom-nav a:hover {
+    color: rgb(7, 7, 7);
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .bottom-footer {
+    display: block;
+    text-align: center;
+  }
+
+  .bottom-footer br {
+    display: none;
+  }
+  
+  .latest {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+
+  .latest1 img {
+    width: 100%;
+    height: 100px;
+  }
+
+  .latest1 {
+    display: block;
+    width: 32%;
+    height: 100%;
+  }
+
+  .latest1 a {
+    margin: 0;
+  }
+
+  .latest2 {
+    margin-right: 16rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .middle-bottom-nav {
+    display: flex;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .head {
+    margin-bottom: 1rem;
+  }
+
+  .top-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .top-text h2 {
+    width: 50%;
+  }
+
+  .top-text-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: flex-end;
+  }
+
+  .center {
+    margin: 0 auto;
+    height: 100%;
+    width: 70%;
+  }
+
+  .top-right {
+    background-image:
+      linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(7, 7, 7, 0.73)),
+      url('assets/Opal-796x417.jpg');
+    grid-row: 1/3;
+    grid-column: 1/2;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .date {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .fund4 {
+    display: block;
+  }
+
+  .tnw-img {
+    display: block;
+    background-image: url(assets/tnw.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 5rem !important;
+    margin-bottom: 13rem !important;
+  }
+
+  .left-head h2 {
+    display: none !important;
+  }
+
+  .tnw-bottom a {
+    font-weight: bold;
+  }
+
+  .my-nav {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+
+  .hide {
+    display: inline;
+  }
+
+  .bottom-footer {
+    display: block;
+    text-align: center;
+  }
+
+  .bottom-footer br {
+    display: none;
+  }
+
+  .latest {
+    gap: 1%;
+    justify-content: space-between;
+  }
+
+  .latest1 {
+    width: 24%;
+    padding-bottom: 1rem;
+  }
+
+  .latest1 img {
+    height: 150px;
+  }
+
+  .latest2 {
+    margin-right: 0;
+  }
+
+  .img-text {
+    font-size: 0.9rem;
+    padding-bottom: 0.5em;
+  }
+}
