@@ -418,7 +418,6 @@ footer {
   color: black;
   font-weight: 900;
   line-height: 1rem;
-  font-family: 'Kanit', sans-serif;
 }
 
 .img-text p {
@@ -428,15 +427,17 @@ footer {
 .img-text:hover {
   color: red;
 }
-
+.discount {
+  display: none;
+}
 .latest1 {
   display: flex;
   gap: 0.5rem;
+  position: relative;
 }
 
 .latest1 img {
   width: 80px;
-  height: 100px;
 }
 
 .time {
@@ -827,7 +828,27 @@ footer {
     padding-left: 1rem;
     white-space: nowrap;
   }
-
+  .discount {
+    display: block;
+    background-image: url(assets/discount.svg);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 0;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .discount:hover {
+    cursor: pointer;
+  }
+  .disc-text {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+    transform: rotate(45deg);
+  }
   .latest1 a {
     margin: 0;
   }
@@ -1010,6 +1031,7 @@ footer {
   .img-text {
     font-size: 0.9rem;
     padding-bottom: 0.5em;
+    font-family: 'Kanit', sans-serif;
   }
 
   .big-card-container {
