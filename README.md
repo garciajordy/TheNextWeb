@@ -2,7 +2,7 @@
 
 # The Next Web
 
-> This website is a replica of the next web website it build entirely with HTML and CSS 
+> This website is a replica of "The Next Web" website it was build entirely with HTML and CSS 
 
 ![screenshot](assets/screenshot.png)
 
@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://shaher-11.github.io/perma/)
+[Live Demo Link](https://garciajordy.github.io/TheNextWeb/)
 
 
 ## Getting Started
