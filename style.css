@@ -237,6 +237,7 @@ footer {
 .latest-container h2 {
   color: #f42;
   padding-bottom: 1rem;
+  font-family: 'Kanit', sans-serif;
 }
 
 /*
@@ -251,7 +252,10 @@ footer {
   padding: 1rem;
   gap: 0.5rem;
 }
-
+.top-text h2 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.6rem;
+}
 .top-text a:hover {
   color: black;
 }
@@ -279,6 +283,7 @@ footer {
   background-color: #f42;
   padding: 10.6666666667px 16px 10.6666666667px 84px;
   color: white;
+  font-family: 'Kanit', sans-serif;
 }
 
 .top-2 {
@@ -288,10 +293,13 @@ footer {
 
 .top2-p {
   color: rgba(0, 0, 0, 0.5);
+  font-size: 0.8rem;
 }
 
 .top-2 h4 {
   font-size: 18px;
+  font-weight: bolder;
+  font-family: 'Kanit', sans-serif;
 }
 
 .fund-top img {
@@ -400,10 +408,17 @@ footer {
   gap: 0.5rem;
 }
 
+.latest:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .img-text {
   color: black;
   font-weight: 900;
   line-height: 1rem;
+  font-family: 'Kanit', sans-serif;
 }
 
 .img-text p {
@@ -421,7 +436,7 @@ footer {
 
 .latest1 img {
   width: 80px;
-  height: 80px;
+  height: 100px;
 }
 
 .time {
@@ -450,11 +465,15 @@ footer {
   display: flex;
   flex-direction: column;
 }
-
+.big-card-top h2 {
+  font-family: 'Kanit', sans-serif;
+}
 .big-card-top-text {
   padding-bottom: 0.8rem;
 }
-
+.big-card-top h2 {
+  font-family: 'Kanit', sans-serif;
+}
 .big-card-top-text a {
   color: #f42;
 }
@@ -479,8 +498,8 @@ footer {
   font-size: 1.5rem;
 }
 
-.middle-photo h3:hover {
-  text-decoration: #555 underline 1px;
+.middle-photo a:hover {
+  border-bottom: #555 solid 1px;
 }
 
 .big-card-date,
@@ -499,14 +518,18 @@ footer {
   grid-template-columns: 1fr 100px;
   background-color: rgba(255, 67, 34, 0.08);
 }
-
-.middle-container img {
+.img-con {
   width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.middle-container img {
+  transform: translate(-40px,0);
   height: 100px;
 }
 
 .middle-text {
-  padding: 1rem;
+  padding: 0.8rem;
   color: #f42;
 }
 .middle-text a {
@@ -520,7 +543,7 @@ footer {
   padding: 0 1.3rem 1.3rem 1.3rem;
 }
 .big-card-bottom a {
-  color: rgb(61, 61, 61);
+  color: rgb(90, 90, 90);
   font-size: 0.8rem;
 }
 .big-card-bottom a:hover {
@@ -537,55 +560,55 @@ footer {
 .mp1 {
   background-image:
   linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
-  url('https://source.unsplash.com/random/410x305');
+  url('assets/bg1.jpg');
 }
 
 .mp2 {
   background-image:
   linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
-  url('https://source.unsplash.com/random/420x305');
+  url('assets/bg2.png');
 }
 
 .mp3{
   background-image:
   linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
-  url('https://source.unsplash.com/random/430x305');
+  url('assets/bg3.jpg');
 }
 
 .mp4 {
   background-image:
   linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
-  url('https://source.unsplash.com/random/440x305');
+  url('assets/bg4.jpg');
 }
 
 .mp5 {
   background-image:
   linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
-  url('https://source.unsplash.com/random/450x305');
+  url('assets/bg5.webp');
 }
 
 .mp6 {
   background-image:
   linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
-  url('https://source.unsplash.com/random/460x305');
+  url('assets/bg6.webp');
 }
 
 .mp7 {
   background-image:
   linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
-  url('https://source.unsplash.com/random/470x305');
+  url('assets/bg7.png');
 }
 
 .mp8 {
   background-image:
   linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
-  url('https://source.unsplash.com/random/480x305');
+  url('assets/bg8.jpg');
 }
 
 .mp9 {
   background-image:
   linear-gradient(to bottom, rgba(165, 163, 163, 0.219),rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.973)),
-  url('https://source.unsplash.com/random/490x305');
+  url('assets/bg9.jpg');
 }
 /*
     ==============================================
@@ -772,7 +795,9 @@ footer {
   .fund4 {
     display: none;
   }
-
+  .top-text h2 {
+    white-space: nowrap;
+  }
   .top-text-bottom {
     display: flex;
     flex-direction: row;
@@ -825,9 +850,8 @@ footer {
   }
 
   .latest {
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 2rem;
   }
 
@@ -838,30 +862,36 @@ footer {
 
   .latest1 {
     display: block;
-    width: 32%;
+    width: 100%;
     height: 100%;
   }
 
-  .latest2 {
-    margin-right: 16rem;
-  }
+
   .big-card-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
   }
+
   .middle-photo {
     width: 100%;
-    padding: 50% 1rem 1rem 1rem;
+    padding: 1rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 0.1rem;
   }
 
   .big-card-bottom a {
-    color: rgb(61, 61, 61);
-    font-size: 0.5rem;
+    color: rgb(87, 87, 87);
+    font-size: 0.8rem;
   }
+
   .big-card-bottom li {
     padding: 0.2rem;
   }
+
   .deals img {
     height: 200px !important;
   }
@@ -960,17 +990,17 @@ footer {
   }
 
   .latest {
-    gap: 1%;
-    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
   }
 
   .latest1 {
-    width: 24%;
+    width: 100%;
     padding-bottom: 1rem;
   }
 
   .latest1 img {
-    height: 100px;
+    height: 120px;
   }
 
   .latest2 {
