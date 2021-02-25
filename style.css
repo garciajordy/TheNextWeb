@@ -532,10 +532,12 @@ footer {
 .middle-text {
   padding: 0.8rem;
   color: #f42;
+  overflow: hidden;
 }
 .middle-text a {
   color: #f42;
   font-weight: 900;
+  font-size: 0.9rem;
 }
 .middle-text a:hover {
   border-bottom: rgba(255, 67, 34, 0.137) solid 1px;
